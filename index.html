@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarjeta Virtual | Ingeniero en Sistemas</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen flex items-center justify-center p-4">
+
+    <!-- Contenedor Principal de la Tarjeta -->
+    <div class="w-full max-w-sm bg-slate-900 border border-slate-800 rounded-2xl shadow-2xl p-6 text-center relative overflow-hidden">
+        
+        <!-- Efecto de brillo superior -->
+        <div class="absolute top-0 left-1/2 -translate-x-1/2 w-32 h-1 bg-cyan-400 rounded-full shadow-[0_0_15px_#38bdf8]"></div>
+
+    <!-- Tu Logotipo Personalizado -->
+<div class="w-24 h-24 mx-auto mt-4 rounded-full bg-slate-900 border-2 border-cyan-500/50 flex items-center justify-center overflow-hidden shadow-inner">
+    <img src="Logo.png" alt="Logotipo" class="w-full h-full object-cover">
+</div>
+
+        <!-- Información Personal -->
+        <h1 class="mt-4 text-xl font-bold tracking-tight text-white">Edgar Bautista</h1>
+        <p class="text-xs uppercase tracking-widest text-cyan-400 font-semibold mt-1">Ingeniero en Sistemas</p>
+        
+        <!-- Propuesta de Valor -->
+        <p class="text-sm text-slate-400 mt-3 px-2">
+            Automatización de procesos y desarrollo de micro apps orientadas a la eficiencia operativa.
+        </p>
+
+        <!-- Botones de Acción (Enlaces Interactivos) -->
+        <div class="mt-6 space-y-3">
+            <a href="https://wa.me/50240887770" target="_blank" class="block w-full py-3 px-4 bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-semibold rounded-xl transition duration-200 shadow-lg shadow-cyan-500/20">
+                📲 Contactar por WhatsApp
+            </a>
+            
+            <a href="mailto:microapps0407@gmail.com" class="block w-full py-3 px-4 bg-slate-800 hover:bg-slate-700 text-slate-200 font-medium rounded-xl transition duration-200 border border-slate-700">
+                ✉️ Enviar Correo
+            </a>
+
+            <a href="https://tu-portafolio.com" target="_blank" class="block w-full py-3 px-4 bg-slate-800 hover:bg-slate-700 text-slate-200 font-medium rounded-xl transition duration-200 border border-slate-700">
+                🌐 Ver Portafolio / Micro Apps
+            </a>
+        </div>
+
+        <!-- Pie de tarjeta / Marca personal -->
+        <div class="mt-8 pt-4 border-t border-slate-800/60 text-xs text-slate-500">
+            Soluciones Tecnológicas &bull; Guatemala
+        </div>
+
+    </div>
+
+</body>
+</html>
